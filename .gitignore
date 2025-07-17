@@ -1,0 +1,45 @@
+# .NET / Visual Studio
+# Archivos de configuración de usuario y temporales de Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Directorios de compilación
+**/[Bb]in/
+**/[Oo]bj/
+
+# Archivos generados por VS
+**/App_Data/
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.pch
+*.aps
+*.tmp
+*.bak
+*.cache
+*.vs
+.vs/
+
+# Resharper
+_ReSharper*/
+*.[Rr]esharper
+
+# Sistema Operativo
+# Archivos de macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Archivos de Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Archivos de entorno (opcional pero recomendado)
+.env
