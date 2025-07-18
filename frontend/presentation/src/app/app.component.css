@@ -1,0 +1,10 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Asegura que la aplicación ocupe al menos el 100% de la altura de la ventana */
+}
+
+.app-main-content {
+  flex: 1; /* Permite que el contenido principal crezca y ocupe el espacio disponible */
+  padding: 20px;
+}

@@ -1,0 +1,28 @@
+<div class="user-list-container">
+  <h2>Lista de Usuarios</h2>
+
+  <div class="search-section">
+    <button class="search-button" (click)="onSearchClick()">Buscar</button>
+  </div>
+
+  <div *ngIf="users.length === 0" class="no-users-message">
+    <p>No hay usuarios disponibles.</p>
+  </div>
+
+  <div *ngIf="users.length > 0" class="table-responsive">
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of users">
+          <td data-label="ID">{{ user.id }}</td>
+          <td data-label="Nombre">{{ user.firstName }} {{ user.lastName }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
